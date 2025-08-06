@@ -1,10 +1,7 @@
 import os
-import sys 
 import shutil
 import argparse
-import datetime
 import logging 
-import subprocess
 
 images=[]
 documents = []
@@ -21,6 +18,7 @@ FILE_TYPES = {
 parser = argparse.ArgumentParser(description='organize files by type')
 parser.add_argument('--dir',help='path to the directory', required=True)
 parser.add_argument('--dry-run', action='store_true', help='simulate organization without moving files')
+parser.add_argument('--custom-types',help='add your own extension ')
 args = parser.parse_args()
 directory = args.dir
 
