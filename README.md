@@ -6,9 +6,12 @@ This repo contains all my hands-on exercises and real-world automation tools bui
 
 | Module | Description |
 |--------|-------------|
-| [Module 2](./module-2-virtual-environments) | Setup and activate virtual environments |
-| [Module 3](./module-3-python-scripts) | Write and run basic Python scripts |
-| [Module 4](./module-4-file-organizer) | Automation: File organizer with CLI, tests, custom types |
+| [Module 1] | Introduction to automation |
+| [Module 2]| Basic automation script |
+| [Module 3] | Advanced automation techniques |
+| [Module 4] | Optimization and Scaling |
+| [Module 5] | Git Collaboration|
+
 
 ## About Me
 
